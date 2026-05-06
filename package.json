@@ -1,0 +1,23 @@
+{
+    "name": "metamorph-sender",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "An actor that demonstrates metamorph by transforming into metamorph-receiver",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "scrapely": "file:../scrapely"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.0",
+        "tsx": "^4.20.3",
+        "typescript": "^6.0.0"
+    },
+    "scripts": {
+        "start": "tsx src/main.ts",
+        "build": "tsc"
+    },
+    "author": "Scrapely",
+    "license": "ISC"
+}

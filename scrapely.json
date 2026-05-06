@@ -1,0 +1,16 @@
+{
+    "name": "metamorph-sender",
+    "version": "1.0.0",
+    "description": "An actor that demonstrates metamorph by transforming into metamorph-receiver",
+    "inputSchema": {
+        "type": "object",
+        "properties": {
+            "message": {
+                "type": "string",
+                "title": "Message",
+                "description": "A message to pass to the receiver actor",
+                "default": "Hello from sender!"
+            }
+        }
+    }
+}
